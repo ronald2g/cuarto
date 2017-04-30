@@ -1,3 +1,8 @@
+presupuesto:
+    resource: "@PresupuestoBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
 app:
     resource: '@AppBundle/Controller/'
     type: annotation

@@ -1,0 +1,4 @@
+services:
+#    presupuesto.example:
+#        class: PresupuestoBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]
