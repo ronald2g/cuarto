@@ -14,6 +14,7 @@ class DefaultController extends Controller
     {
         return $this->render('PresupuestoBundle:Default:index.html.twig',[
             'base_dir' => realpath($this->getParameter('kernel.root_dir').'/..').DIRECTORY_SEPARATOR,
+			'titulo' => 'Cálculo de la liquidación de aportes'
         ]);
     }
 }
